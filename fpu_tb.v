@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 12.06.2025 08:42:39
-// Design Name: 
-// Module Name: fpu_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
-//`timescale 1ns / 1ps
-
-//TEST BENCH
 module fpu_tb;
     reg [63:0] A;
     reg [63:0] B;
