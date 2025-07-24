@@ -1,25 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 12.06.2025 08:08:15
-// Design Name: 
-// Module Name: fpu_unit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
-// Top-Level FPU System Module
 module fpu_unit(
     input clk,
     input reset
@@ -131,6 +111,7 @@ module fpu (
             2'b01 : result = add_sub_result;
             2'b10 : result = mul_result;
             2'b11 : result = div_result;
+            default : result = 64'd0;
             endcase
         end
 
