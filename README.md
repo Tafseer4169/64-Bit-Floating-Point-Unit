@@ -71,15 +71,10 @@ The top module `fpu_unit` is composed of the following components:
 ## 📁 **Directory Structure**
 
 ```
-├── fpu_unit.v              # Top module
-├── ProgramCounter.v        # 8-bit PC
-├── InstructionMemory.v     # 16-bit instruction memory
-├── DataMemory.v            # 128-bit data memory
-├── fpu.v                   # Main FPU wrapper (add, sub, mul, div)
-├── fpu_add_sub.v           # Addition/Subtraction unit
-├── fpu_mul.v               # Multiplication unit
-├── fpu_div.v               # Division unit
-├── README.md               # Project documentation
+├── floating_point_unit.v              # Top module
+├── fpu_tb.v                           # Test Bench
+├── fpu_tb2.v                          # Test Bench with special case
+├── README.md                          # Project documentation
 ```
 
 ---
