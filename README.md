@@ -51,7 +51,7 @@ The top module `fpu_unit` is composed of the following components:
 * **Verilog HDL**
 * **ModelSim / Vivado / any Verilog simulator**
 * **IEEE-754 double-precision standard**
-* **Gate-level and Behavioral modeling**
+* **Behavioral modeling**
 
 ---
 
